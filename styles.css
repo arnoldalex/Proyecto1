@@ -1,0 +1,30 @@
+.pagina{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background: pink  ;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 40Spx 40px;
+    text-decoration: none;
+    border-right: 1px solid navy;
+
+}
+li a:visited{
+    color:violet;
+}
+li a :hover{
+    background-color: gray;
+    color: purple;
+}
